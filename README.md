@@ -1,6 +1,6 @@
 # swiftformat-cli
 
-A script you can include in your projects that allows all team members to run the same version of SwiftFormat, without needing a package manager or building SwiftFormat from source.
+A script you can include in your projects that allows all team members to run the same version of [SwiftFormat](https://github.com/nicklockwood/SwiftFormat), without needing a package manager or building SwiftFormat from source.
 
 ## Install
 
