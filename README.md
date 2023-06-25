@@ -4,7 +4,9 @@ A script you can include in your projects that allows all team members to run th
 
 ## Install
 
-Use the install script - coming soon!
+```terminal
+curl -Ls "https://raw.githubusercontent.com/lordcodes/swiftformat-cli/main/scripts/install.sh" | bash
+```
 
 ## Usage
 
