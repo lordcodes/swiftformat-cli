@@ -17,7 +17,7 @@ curl -Ls "https://raw.githubusercontent.com/lordcodes/swiftformat-cli/main/scrip
 Pass the same arguments you would have passed to SwiftFormat to the script instead, such as:
 
 ```terminal
-./swiftformat.sh . --report OUTPUT_LOCATION/swiftformat.json
+./swiftformat.sh . --report swiftformat.json
 ```
 
 To update SwiftFormat, simple change the value for 'VERSION' at the top of the script.
@@ -73,7 +73,6 @@ lane :format do
         UI.error("SwiftFormat failed")
         UI.error(ex)
         UI.error("#{output_directory_absolute_file_url}/swiftformat.json")
-        (lane_errors ||= []).push(ex)
     end
 end
 ```
@@ -89,7 +88,6 @@ lane :lint do
         UI.error("SwiftFormat failed")
         UI.error(ex)
         UI.error("#{output_directory_absolute_file_url}/swiftformat.json")
-        (lane_errors ||= []).push(ex)
     end
 end
 ```
