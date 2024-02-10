@@ -1,5 +1,7 @@
 # swiftformat-cli
 
+Note: This repository is now archived and will no longer be maintained. I use [Mise](https://github.com/jdx/mise) to manage tools like SwiftFormat now instead.
+
 A script you can include in your projects that allows all team members to run the same version of [SwiftFormat](https://github.com/nicklockwood/SwiftFormat), without needing a package manager or building SwiftFormat from source.
 
 ## Install
